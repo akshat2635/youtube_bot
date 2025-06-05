@@ -30,7 +30,7 @@ async def ask_question(request: AskRequest):
 
     transcript_text = ""
     tries=0
-    while not transcript_text:
+    while not transcript_text and tries < 10:
         try:
             # Attempt to get the transcript
             transcript_text = get_transcript(video_id)
