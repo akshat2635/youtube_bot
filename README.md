@@ -39,7 +39,7 @@ Before you begin, ensure you have the following installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/akshat2635/youtube_bot.git
 cd youtube_bot
 ```
 
